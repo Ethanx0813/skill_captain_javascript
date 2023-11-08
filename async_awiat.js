@@ -14,7 +14,7 @@ function fetchDataWithDelay() {
           .catch(error => {
             reject(error);
           });
-      }, 5000); // Simulate a 2-second delay before making the API request
+      }, 5000); // Simulate 5 second delay before making the API request
     });
   }
   
